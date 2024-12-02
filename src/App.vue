@@ -3,11 +3,11 @@
 
 
 <template >
-<div class="bg-Corbeau-900 w-screen  md:min-w-full min-h-screen conatiner flex flex-col  justify-center order-1  ">
+<div class="bg-Corbeau-900 w-screen  md:min-w-full min-h-screen conatiner flex flex-col  justify-center order-1  overflow-y-scroll overflow-hidden ">
    
 
   
-
+  <Header :scrollToSection="scrollToSection"/>
     
 
     <section id="home" ref="home">

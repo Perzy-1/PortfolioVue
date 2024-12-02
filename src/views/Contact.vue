@@ -10,7 +10,7 @@
             </ul>
             <div class="relative filter blur-3xl opacity-50 -bottom-15 -left-5 w-72 h-72 bg-Paua rounded-full animate-blob animation-delay-2000"></div>
             <div class="relative filter blur-3xl opacity-50 -bottom-15 -left-40 w-72 h-72 bg-Llilacquered-900 animate-blob rounded-full "></div>
-            <div class="absolute border border-Moonraker right-10 top-[6rem] h-calc-100vh-50px border-opacity-15 divide"> </div>
+            
         </div>
 </template>
 

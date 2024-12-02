@@ -2,8 +2,8 @@
 <template>
    
    
-      <div :class="{'  p-6  flex flex-row rounded-full transition-all  animate-collapse duration-500 ease-in-out   self-center justify-center items-center ': hideNav, 'animate-recollapse ': !hideNav }" 
-        class="sticky border-none z-50 top-0 bg-Corbeau-800  w-full flex-1 self-center justify-center items-center ease-in-out duration-500 py-2   ">
+      <div :class="{'hidden fixed p-6  sm:flex flex-row rounded-full transition-all  animate-collapse duration-500 ease-in-out   self-center justify-center items-center ': hideNav, 'animate-recollapse ': !hideNav }" 
+        class="hidden sm:flex border-none z-50 top-0 bg-Corbeau-800  w-full flex-1 self-center justify-center items-center ease-in-out duration-500 py-2   ">
         
             <nav id="nav"class="relative w-fit place-self-center bg-Corbeau-800  gap-1  flex" >
               

@@ -1,5 +1,5 @@
 <template>
-    <div class=" about border-b border sm:min-h-screen  border-Moonraker border-opacity-15 flex flex-wrap flex-auto justify-center place-items-center ">
+    <div class=" about p-10 sm:p-0 border-b border sm:min-h-screen min-h-screen  border-Moonraker border-opacity-15 flex flex-wrap flex-auto justify-center place-items-center ">
         <div class="container mx-16 flex flex-row gap-x-[100px]  justify-center content-center ">
             <figure class="flex flex-col w-[380px] divide-Moonraker divide-opacity-15 divide-y-2 gap-y-10">
                 
