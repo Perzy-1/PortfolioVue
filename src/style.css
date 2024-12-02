@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .animation-delay-2000{
+        animation-delay: 2s;
+    }
+    .w-93px{
+      width:93px;
+    }
+
+    .h-calc-100vh-50px {
+        height: calc(100vh - 150px);
+      }
+
+    .bw-image {
+    filter: grayscale(100%);
+    }
+
+    .darken-image {
+        filter: brightness(0.2); /* Adjust the value to make the image darker */
+      }
+
+    .btn-hover-effect {
+      @apply rounded-lg hover:bg-Moonraker hover:bg-opacity-10 hover:border-opacity-0 duration-150;
+    }
+
+    .btn-active-effect {
+      @apply rounded-lg bg-Moonraker bg-opacity-10 border-opacity-0 transition-all ease-in duration-300 ;
+    }
+    .btn-nav-style {
+      @apply focus:outline-none  border-none font-sans  text-Llilacquered-900 relative text-center z-20 w-93px px-4 py-2;
+    }
+
+  
+}
+    
